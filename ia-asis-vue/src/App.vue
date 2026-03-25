@@ -92,7 +92,7 @@ const processText = async () => {
   result.value = ''
 
   try {
-    const response = await axios.post('http://127.0.0.1:8000/api/process-text', {
+    const response = await axios.post('https://laravel-ai-content-assis-production.up.railway.app/api/process-text', {
       text: inputText.value
     })
 
